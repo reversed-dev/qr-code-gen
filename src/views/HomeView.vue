@@ -4,8 +4,8 @@
 <template>
   <main>
     <div>
-      <h2 class="green">Your URL</h2>
-      <input type="url" name="url" id="url" alt="Your URL to make to a QR Code" oninput='var qr = qrcode(4, "L");qr.addData(document.getElementById("url").value);qr.make();document.getElementById("placeHolder").src = qr.createDataURL();'>
+      <h2 class="green">Your Data</h2>
+      <input type="text" name="userdata" id="userdata" alt="Your URL to make to a QR Code" oninput='var qr = qrcode(4, "L");qr.addData(document.getElementById("userdata").value);qr.make();document.getElementById("placeHolder").src = qr.createDataURL();'>
     </div>
     <div style="margin-top: 10px;">
       <div>
