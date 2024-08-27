@@ -7,7 +7,7 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    An app that doesn't require an email to generate a damm qr code. Made with <span style="color: red;">♥️</span> and Vue.JS defaults 💀 <br> <br>The QR code generates live, download whenever you want!
+    The probably first QR Code Generator that does not require any register. Made with <span style="color: red;">♥️</span> and Vue <br> <br>The QR code generates live, download whenever you want! Similar Privacy as <a href="https://reversed.dev/privacy?ref=QRGeN">Reversed's Privacy</a> applies. No data from qr codes are saved!
   </div>
 </template>
 
