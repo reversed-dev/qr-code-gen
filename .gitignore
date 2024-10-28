@@ -15,7 +15,9 @@ coverage
 dist
 /cypress/videos/
 /cypress/screenshots/
-
+./dist
+dist/*
+dist
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
