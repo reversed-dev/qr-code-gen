@@ -8,7 +8,7 @@ defineProps<{
   <div class="text-center lg:text-left">
     <h1 class="text-3xl font-medium text-green-600 dark:text-green-400 mb-2">{{ msg }}</h1>
     <p class="text-base text-gray-700 dark:text-gray-300">
-      The probably first QR Code Generator that does not require any register. Made with <span class="text-red-500">♥️</span> and Vue <br> <br>The QR code generates live, download whenever you want! Similar Privacy as <a href="https://reversed.dev/privacy?ref=QRGeN" class="text-blue-500 hover:underline">Reversed's Privacy</a> applies. No data from qr codes are saved!
+      The probably first QR Code Generator that does not require any register. 
     </p>
   </div>
 </template>
