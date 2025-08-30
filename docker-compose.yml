@@ -8,6 +8,7 @@ services:
       - .:/app
     ports:
       - "3123:3123"
+    restart: always
     command: >
       sh -c "
       npm i -g pnpm &&
